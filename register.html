@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <a href="index.html">Home Page</a>
+            <a href="charitylist.html">Search For a Charity</a>
+            <a href="volunteer.html">Volunteer</a>
+            <a href="register.html">Register a Charity</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </header>
+    <div class="main">
+        <h1>Register Your Charity Here!</h1>
+        <form class="wideform" action="https://httpbin.org/post" method="post">
+            <p>
+                <label for="charity_name">Charity Name:</label>
+                <input type="text" name="charity_name" id="charity_name" autocomplete="on" required autofocus>
+            </p>
+            <p>
+                <label for="charity_leader">Charity Leader:</label>
+                <input type="text" name="charity_leader" id="charity_leader" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="email">Contact Email:</label>
+                <input type="email" name="email" id="email" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="phone">Contact Phone:</label>
+                <input type="tel" name="phone" id="phone" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="address">Address:</label>
+                <input type="text" name="address" id="address" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="about">Tell Us A Little About Your Charity:</label>
+                <br><textarea name="about" id="about" cols="60" rows="10" placeholder="Describe your charity"></textarea>
+            </p>
+            <p>
+                <label for="help">How Can We Help You?:</label>
+                <br><textarea name="help" id="help" cols="60" rows="10" placeholder="Describe how we can help you"></textarea>
+            </p>
+            <div class="center_buttons">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+       <footer>
+        <p>We're Here To Help: HelpHub2024. All rights reserved.</p>
+    </footer>
+</body>
+</html>

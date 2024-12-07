@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+                <div class="topnav">
+                    <a href="index.html">Home Page</a>
+                    <a href="charitylist.html">Search For a Charity</a>
+                    <a href="volunteer.html">Volunteer</a>
+                    <a href="register.html">Register a Charity</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+          
+    </header>
+    <div class="main">
+        <h1>Contact Us Here!</h1>
+        <h2>If you have any questions or comments, please do not hesitate to let us know!</h2>
+        <form class="wideform" action="https://httpbin.org/post" method="post">
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" autocomplete="on" required autofocus>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" id="phone" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="message">Comment:</label>
+                <br>
+                <textarea name="message" id="message" cols="60" rows="10" placeholder="Add Comments Here!"></textarea>
+            </p>
+            <p>
+                <label for="question">Question:</label>
+                <br>
+                <textarea name="question" id="question" cols="60" rows="10" placeholder="Add Questions Here!"></textarea>
+            </p>
+            <div class="center_buttons">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+       <footer>
+        <p>We're Here To Help: HelpHub2024. All rights reserved.</p>
+    </footer>
+</body>
+</html>

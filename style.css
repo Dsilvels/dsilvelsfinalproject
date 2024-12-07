@@ -1,0 +1,116 @@
+body {  
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: x-large;
+    background-color: periwinkle;
+    margin: 0;
+    padding: 0; 
+}
+a {
+    text-decoration: none;
+}
+table {
+    border-spacing: 30px;
+}
+td {
+    vertical-align: top;
+}
+.main {
+    margin: 20px; 
+    background-color: periwinkle;
+    padding: 20px; 
+}
+.grid {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+    text-align: center;
+    background-color: white;
+}
+footer {
+    background-color: grey;
+    font-size: smaller;
+    color: white;
+}
+.center { 
+    display: flex; 
+    height: 40px;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: gray;
+}
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: x-large;
+}
+.topnav a:hover {
+    background-color: pink;
+    color: white;
+}
+.wideform input {
+    width: 100%;
+    height: 30px;
+}
+.wideform textarea {
+    width: 100%;
+    height: 200px;
+}
+button {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: x-large;
+    margin-right: 16px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+.center_buttons { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+.back_button {
+    background-color: white;
+    border: solid 1px gray;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: x-large;
+    margin-top: 20px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+#open_about_us {
+    font-size: larger;
+    font-weight: bold;
+}
+#open_vol_needs {
+    font-size: larger;
+    font-weight: bold;
+}
+.center_table {
+    margin-right: auto;
+    margin-left: auto;
+}
+.np_table {
+    border-spacing: 5px;
+}
+img {
+    max-width: 100%;
+}
+.logo {
+    max-width: 90%;
+}
